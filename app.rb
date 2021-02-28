@@ -4,9 +4,9 @@ require 'sinatra'
 require 'sinatra/reloader'
 require "sinatra/activerecord"
 
-set :database, "sqlite3:barbershop.db"
+set :database, "sqlite3:pizzashop.db"
 
-class Client < ActiveRecord::Base # создание сущности
+class Product < ActiveRecord::Base # создание сущности
 
 end
 

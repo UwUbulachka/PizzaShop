@@ -1,3 +1,7 @@
+
+
+
+
 function something()
 {   
 	
@@ -9,6 +13,13 @@ function something()
 	window.localStorage.setItem('bbb', x);
 
 	alert(x);
+}
+
+
+
+function add_to_cart()
+{
+	alert('Asadf');
 }
 
 

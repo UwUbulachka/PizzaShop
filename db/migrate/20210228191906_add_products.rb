@@ -8,7 +8,7 @@ class AddProducts < ActiveRecord::Migration[5.2]
       :is_spicy => false,
       :is_veg => false,
       :is_best_offer => false,
-      :path_to_image => '/images/.jpg'
+      :path_to_image => '/images/hawaiian.jpg'
       })
     Product.create ({:title => 'Пепперони',
       :description => 'Это пицца Пепперони',
@@ -17,7 +17,7 @@ class AddProducts < ActiveRecord::Migration[5.2]
       :is_spicy => false,
       :is_veg => false,
       :is_best_offer => true,
-      :path_to_image => '/images/.jpg'
+      :path_to_image => '/images/peperoni.jpg'
       })
     Product.create ({:title => 'Вегетарианская',
       :description => 'Это вегетарианская пицца',
@@ -26,7 +26,7 @@ class AddProducts < ActiveRecord::Migration[5.2]
       :is_spicy => false,
       :is_veg => true,
       :is_best_offer => false,
-      :path_to_image => '/images/.jpg'
+      :path_to_image => '/images/veg.jpg'
   })
   end
 end

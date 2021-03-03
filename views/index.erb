@@ -1,4 +1,14 @@
 <h2>Добро Пожаловать в пиццерию!</h2>
+
+<div class="row">
+	<% @products.each do |p| %>
+	<div class="col-md-3">
+		<%=p.title%>
+
+	</div>
+	<%end%>
+</div>
+
 <button type="submit" class="btn btn-dark" onclick="something()">Clik</button>
 
 

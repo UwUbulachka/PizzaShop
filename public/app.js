@@ -1,7 +1,6 @@
 
 
 
-
 function something()
 {   
 	
@@ -17,10 +16,11 @@ function something()
 
 
 
-function add_to_cart()
+function add_to_cart(id)
 {
-	alert('Asadf');
+	varx = window.localStorage.getItem('product_' + id);
+	x = x * 1 + 1;
+	window.localStorage.setItem('product_' + id, x);
+
 }
-
-
 
